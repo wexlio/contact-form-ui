@@ -4,12 +4,12 @@ body{
 }
 
 .form{
-    width:340px;
+    max-width:340px;
     height:auto-fill;
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-    margin:10px auto;
+    margin:10px 10px;
     padding:20px 30px;
     max-width:calc(100vw - 40px);
     box-sizing:border-box;
@@ -84,13 +84,14 @@ span{
 }
 
 .videos{
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: top;
     /* width:340px; */
     /* height:auto-fill; */
-    background:#e6e6e6;
+    background:transparent;
     border-radius:8px;
     /* box-shadow:0 0 40px -10px #000; */
     /* margin:0 auto; */
@@ -114,4 +115,19 @@ span{
     /* box-sizing:border-box; */
     font-family:'Montserrat',sans-serif;
     position:relative
+}
+
+@media only screen and (min-width: 800px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .videos{
+        margin-top: -45%;
+    }
+
 }
