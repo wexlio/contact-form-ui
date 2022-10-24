@@ -1,6 +1,24 @@
+.maps{
+    max-width: 350px;
+    height: 25px;
+    padding: 10px;
+    padding-bottom: 130px;
+}
+#map{
+    /* height: 100%; */
+    width: 100%;
+    padding: 10px;
+}
+html, body{
+    /* height: 100%; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
 body{
     background:#59ABE3;
-    margin:0
 }
 
 .form{
@@ -34,7 +52,6 @@ p:before{
 }
 
 button{
-    /* float:right; */
     width: 250px;
     text-align: center;
     padding:8px 12px;
@@ -62,9 +79,6 @@ button:hover{
     justify-self: center;
 }
 
-div{
-    content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#50505a;color:#fff;width:320px;padding:16px 4px 16px 0;border-radius:6px;font-size:13px;box-shadow:10px 10px 40px -14px #000
-}
 
 span{
     margin:0 5px 0 15px
@@ -89,45 +103,46 @@ span{
     flex-direction: column;
     justify-content: top;
     align-items: top;
-    /* width:340px; */
-    /* height:auto-fill; */
     background:transparent;
     border-radius:8px;
-    /* box-shadow:0 0 40px -10px #000; */
-    /* margin:0 auto; */
-    /* max-width:calc(100vw - 40px); */
-    /* box-sizing:border-box; */
     font-family:'Montserrat',sans-serif;
     position:relative;
-    /* padding: 0 0 0 0 !important; */
-    /* margin: 0 0 0 0 !important;*/
-    /* right: none; */
+
 }
 .videos1{
-    /* margin: 0 !important; */
+
     max-width:90%;
     height:auto-fill;
     background:#e6e6e6;
     border-radius:8px;
-    /* margin:0 auto;
-    padding:20px 30px; */
-    /* max-width:calc(100vw - 90px); */
-    /* box-sizing:border-box; */
+
     font-family:'Montserrat',sans-serif;
     position:relative
 }
 
-@media only screen and (min-width: 800px){
 
+#map {
+    min-height: 500%;
+    /* min-width: 100%; */
+
+}
+/* div{
+    position:relative;
+    padding: 50px;
+    height: 100%;
+} */
+
+@media only screen and (min-width: 800px){
+    
     body{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
     }
-
+    
     .videos{
-        margin-top: -45%;
+        margin-top: -50%
     }
-
+    
 }
