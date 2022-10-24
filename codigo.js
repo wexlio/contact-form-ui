@@ -5,7 +5,7 @@ const cordenada = { lat: -11.831044, lng:  -77.043606 };
 var citymap = {
     Carabayllo: {
         center: {lat: -11.831044, lng: -77.043606},
-        population: 700
+        population: 280
     }
     };
 
