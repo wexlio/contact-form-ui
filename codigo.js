@@ -1,4 +1,3 @@
-iniciarMap();
 
 const mapDiv = document.getElementById("map");
 let map;
@@ -7,7 +6,7 @@ var citymap = {
     Carabayllo: {
         center: {lat: -11.831044, lng: -77.043606},
         population: 900
-        }
+    }
     };
 
 async function iniciarMap() {
@@ -15,8 +14,8 @@ async function iniciarMap() {
         center: cordenada,
         scaleControl: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        zoom: 14,
-        });
+        zoom: 15,
+    });
     for (var city in citymap) {
             var cityCircle = new google.maps.Circle({
             strokeColor: '#0000FF',
@@ -30,3 +29,5 @@ async function iniciarMap() {
         });
     }
 }
+
+iniciarMap();
