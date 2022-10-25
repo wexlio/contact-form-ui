@@ -87,7 +87,7 @@ span{
     margin:0 5px 0 15px
 }
 
-#vehicle1{
+.vehicle1{
     width:10%;
     margin-top:7%;
     box-sizing:border-box;
@@ -149,5 +149,3 @@ span{
     }
     
 }
-
-

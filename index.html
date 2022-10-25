@@ -10,26 +10,26 @@
 <body>
 
     
-    <form class="form">
+    <form id="form" class="form">
       <h2>Formulario para compra</h2>
       <p type="1. Nombre:">
-      <input required type="text" placeholder="Coloque su nombre aquí..."></input>
+      <input  required type="text" placeholder="Coloque su nombre aquí..." id="nombre"></input>
     </p>
 
     <p type="2. Celular:">
-        <input required type="number" placeholder="Coloque su celular aquí..."></input>
+        <input required type="number" placeholder="Coloque su celular aquí..." id="celular"></input>
     </p>
     
     <p type="3. Correo:">
-        <input required type="email" placeholder="Coloque su correo aquí..."></input>
+        <input required type="email" placeholder="Coloque su correo aquí..." id="correo"></input>
     </p>
 
     
     <p type="4. ¿Tiene capital propio o un crédito aprobado para realizar la compra?:">
       
-        <input req type="checkbox" class="hola" id="vehicle1" name="CapitalPropio" value="Capital-propio">Capital propio<br>
+      <input class="vehicle1" req type="checkbox" class="hola" id="capitalPropio" name="CapitalPropio" value="Capital-propio">Capital propio<br>
       
-      <input req type="checkbox" id="vehicle1" name="CreditoAprobado" value="Credito-aprobado">Crédito aprobado<br>
+      <input class="vehicle1" req type="checkbox" id="creditoAprobado" name="CreditoAprobado" value="Credito-aprobado">Crédito aprobado<br>
       
     </p>
     
@@ -39,21 +39,21 @@
     
     <p type="5. ¿Cuándo desea comprar?">
         
-      <input req type="checkbox" class="hola" id="vehicle1" name="prontoPosible" value="Lo-más-pronto-posible">Lo más pronto posible<br>
+      <input class="vehicle1" req type="checkbox" class="hola" id="loMasPronto" name="prontoPosible" value="Lo-más-pronto-posible">Lo más pronto posible<br>
       
-      <input req type="checkbox" id="vehicle1" name="unMes" value="En-un-mes">En un mes<br>
+      <input class="vehicle1" req type="checkbox" id="enUnMes" name="unMes" value="En-un-mes">En un mes<br>
       
-      <input req type="checkbox" id="vehicle1" name="NoDinero" value="No-tengo-dinero">No tengo dinero, solo pregunto el precio<br>
+      <input class="vehicle1" req type="checkbox" id="NoTengoDinero" name="NoDinero" value="No-tengo-dinero">No tengo dinero, solo pregunto el precio<br>
       
     </p>
     
     <p type="6. ¿Qué es lo que determinará su decisión de compra?:">
         
-        <input req type="checkbox" class="hola" id="vehicle1" name="ubicacion" value="ubicacion">La ubicación<br>
+      <input class="vehicle1" req type="checkbox" class="hola" id="poLaUbicacion" name="poLaUbicacion" value="La-ubicacion">La ubicación<br>
         
-      <input req type="checkbox" id="vehicle1" name="precio" value="precio">El precio<br>
+      <input class="vehicle1" req type="checkbox" id="porElPrecio" name="porElPrecio" value="Por-el-Precio">El precio<br>
       
-      <input req type="checkbox" id="vehicle1" name="ideal" value="ideal">Es el lugar ideal que estoy buscando para mi negocio<br>
+      <input class="vehicle1" req type="checkbox" id="ideal" name="ideal" value="Es-ideal">Es el lugar ideal que estoy buscando para mi negocio<br>
       
     </p>
     <p type="7. ¿Conoce la zona donde està ubicado el terreno?">
@@ -61,11 +61,11 @@
             <div id="map"></div>
         </div>
         
-        <input required type="text" placeholder="Responda aquí"></input>
+        <input required type="text" id="conoceUbicacion" placeholder="Responda aquí"></input>
     </p>
     
     
-    <div class="botton1">
+    <div id="enviarDatos" class="botton1">
         <button>ENVIAR DATOS</button>
     </div>
     
