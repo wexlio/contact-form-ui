@@ -77,7 +77,7 @@ form.addEventListener("submit", async (e) => {
                             
                             
                             setTimeout (function(){
-                                location.href = ("https://api.whatsapp.com/send?phone=+51992830820&text=Hola! 👋 %20Mi%20nombre%20es%20"+`${nombre.value}`+"%20me%20interesa%20el%20terreno%20en%20carabayllo.%20Acabo%20de%20rellenar%20el%20formulario.%20Espero%20tu%20su%20respuesta.");
+                                location.href = ("https://api.whatsapp.com/send?phone=+51992830820&text=Hola! 👋 %20Mi%20nombre%20es%20"+`${nombre.value}`+"%20me%20interesa%20el%20terreno%20en%20carabayllo%20de%20587m2.%20Acabo%20de%20rellenar%20el%20formulario.%20Espero%20su%20respuesta.");
                             }, 500);
         
     } catch (error) {
