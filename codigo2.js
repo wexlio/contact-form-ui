@@ -18,7 +18,7 @@ async function iniciarMap() {
         center: cordenada,
         scaleControl: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        zoom: 14,
+        zoom: 10,
     });
     for (var city in citymap) {
             var cityCircle = new google.maps.Circle({
