@@ -45,7 +45,7 @@ const NoTengoDinero = document.getElementById("NoTengoDinero");
 const poLaUbicacion = document.getElementById("poLaUbicacion");
 const porElPrecio = document.getElementById("porElPrecio");
 const ideal = document.getElementById("ideal");
-const conoceUbicacion = document.getElementById("conoceUbicacion");
+//const conoceUbicacion = document.getElementById("conoceUbicacion");
 
 
 form.addEventListener("submit", async (e) => {
@@ -68,7 +68,6 @@ form.addEventListener("submit", async (e) => {
                                 "poLaUbicacion": poLaUbicacion.checked,
                                 "porElPrecio": porElPrecio.checked,
                                 "ideal": ideal.checked,
-                                "conoceUbicacion": conoceUbicacion.value,
                                 "Estado": "NEW",
                                 "EstadoMedio": "NO ENVIADO"
                             })
