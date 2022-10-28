@@ -34,6 +34,7 @@ form.addEventListener("submit", async (e) => {
                                 "poLaUbicacion": poLaUbicacion.checked,
                                 "porElPrecio": porElPrecio.checked,
                                 "ideal": ideal.checked,
+                                "conoceUbicacion": "link de ubicación visto",
                                 "Estado": "NEW",
                                 "EstadoMedio": "NO ENVIADO"
                             })
