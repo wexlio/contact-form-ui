@@ -42,7 +42,7 @@ const wsp1 = document.getElementById("wsp1")
 
 wsp1.addEventListener("click", () => {
     setTimeout( ()=>  {
-        location.href = "https://api.whatsapp.com/send?phone=+51992830820&text=Hola%20deseo%20agendar%20una%20visita%20para%20el%20terreno%20en%20carabayllo%20de%20590m2"
+        location.href = "https://api.whatsapp.com/send?phone=+51992830820&text=Hola%20deseo%20agendar%20una%20visita%20para%20el%20terreno%20ubicado%20en%20carabayllo%20de%20590m2"
       }, 500)
 })
 
