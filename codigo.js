@@ -5,13 +5,13 @@ const celular = document.getElementById("celular");
 const correo = document.getElementById("correo");
 const capitalPropio = document.getElementById("capitalPropio");
 const creditoAprobado = document.getElementById("creditoAprobado");
-const loMasPronto = document.getElementById("loMasPronto");
-const enUnMes = document.getElementById("enUnMes");
-const NoTengoDinero = document.getElementById("NoTengoDinero");
-const poLaUbicacion = document.getElementById("poLaUbicacion");
-const porElPrecio = document.getElementById("porElPrecio");
-const ideal = document.getElementById("ideal");
-//const conoceUbicacion = document.getElementById("conoceUbicacion");
+// const loMasPronto = document.getElementById("loMasPronto");
+// const enUnMes = document.getElementById("enUnMes");
+// const NoTengoDinero = document.getElementById("NoTengoDinero");
+// const poLaUbicacion = document.getElementById("poLaUbicacion");
+// const porElPrecio = document.getElementById("porElPrecio");
+// const ideal = document.getElementById("ideal");
+// //const conoceUbicacion = document.getElementById("conoceUbicacion");
 
 
 form.addEventListener("submit", async (e) => {
@@ -28,12 +28,12 @@ form.addEventListener("submit", async (e) => {
                                 "Correo": correo.value,
                                 "capitalPropio": capitalPropio.checked,
                                 "creditoAprobado": creditoAprobado.checked,
-                                "loMasPronto": loMasPronto.checked,
-                                "enUnMes": enUnMes.checked,
-                                "NoTengoDinero": NoTengoDinero.checked,
-                                "poLaUbicacion": poLaUbicacion.checked,
-                                "porElPrecio": porElPrecio.checked,
-                                "ideal": ideal.checked,
+//                                 "loMasPronto": loMasPronto.checked,
+//                                 "enUnMes": enUnMes.checked,
+//                                 "NoTengoDinero": NoTengoDinero.checked,
+//                                 "poLaUbicacion": poLaUbicacion.checked,
+//                                 "porElPrecio": porElPrecio.checked,
+//                                 "ideal": ideal.checked,
                                 "conoceUbicacion": "link de ubicación visto",
                                 "Estado": "NEW",
                                 "EstadoMedio": "NO ENVIADO"
