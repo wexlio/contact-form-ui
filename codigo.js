@@ -18,7 +18,7 @@ form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     try {
-        await fetch("https://sheet.best/api/sheets/1c78934a-ed11-448b-86c5-e2c88843a3d3", {
+        await fetch("https://sheet.best/api/sheets/c0d14434-9a3f-4be0-9e47-d20e91b0d64c", {
                             method: "POST",
                             mode: "cors",
                             headers: {"Content-Type": "application/json"},
