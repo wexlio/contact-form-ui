@@ -22,38 +22,22 @@ form.addEventListener("submit", async (e) => {
                             method: "POST",
                             mode: "cors",
                             headers: {"Content-Type": "application/json"},
-//                                body: JSON.stringify({
-//                                 "Nombre": nombre.value,
-//                                 "Celular": celular.value,
-//                                 "Correo": correo.value,
-//                                 "capitalPropio": capitalPropio.checked,
-//                                 "creditoAprobado": creditoAprobado.checked,
-// //                                 "loMasPronto": loMasPronto.checked,
-// //                                 "enUnMes": enUnMes.checked,
-// //                                 "NoTengoDinero": NoTengoDinero.checked,
-// //                                 "poLaUbicacion": poLaUbicacion.checked,
-// //                                 "porElPrecio": porElPrecio.checked,
-// //                                 "ideal": ideal.checked,
-//                                 "conoceUbicacion": "link de ubicación visto",
-//                                 "Estado": "NEW",
-//                                 "EstadoMedio": "NO ENVIADO"
-//                             }),
-                            body: {
+                               body: JSON.stringify({
                                 "Nombre": nombre.value,
                                 "Celular": celular.value,
                                 "Correo": correo.value,
                                 "capitalPropio": capitalPropio.checked,
                                 "creditoAprobado": creditoAprobado.checked,
-                                "loMasPronto": "null",
-                                "enUnMes": "null",
-                                "NoTengoDinero": "null",
-                                "poLaUbicacion": "null",
-                                "porElPrecio": "null",
-                                "ideal": "null",
+//                                 "loMasPronto": loMasPronto.checked,
+//                                 "enUnMes": enUnMes.checked,
+//                                 "NoTengoDinero": NoTengoDinero.checked,
+//                                 "poLaUbicacion": poLaUbicacion.checked,
+//                                 "porElPrecio": porElPrecio.checked,
+//                                 "ideal": ideal.checked,
                                 "conoceUbicacion": "link de ubicación visto",
                                 "Estado": "NEW",
-                                "EstadoMedio": "NO ENVIADO",
-                            }
+                                "EstadoMedio": "NO ENVIADO"
+                            }),
                     
                         });			
                             
